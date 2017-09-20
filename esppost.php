@@ -1,6 +1,6 @@
 <?php
-$Temp= $_POST["temperature"];
-$humid= $_POST["humidity"];
-$Write=  "<p>Temperature : " . $Temp . "</p>". "<p>Humidity: " . $humid. "</p>";
+$var1= $_POST["variable1"];
+$var2= $_POST["variable2"];
+$Write=  "<p>variable1 : " . $var1 . "</p>". "<p>variable2: " . $var2 . "</p>";
 file_put_contents('sensor1.html', $Write);
 ?>
